@@ -6,7 +6,7 @@ const teamRoutes = require("./routes/teamRoutes");
 const errorHandler = require("./middlewares/errorHandler");
 
 connectDB();
-
+// Initialize express app
 const app = express();
 app.use(express.json());
 
